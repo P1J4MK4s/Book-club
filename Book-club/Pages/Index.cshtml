@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="section">
+    <div class="columns is-multiline is-mobile">
+        @{
+            foreach (var b in Model.Books)
+            {
+                <div class="column is-3-desktop is-4-tablet is-5-mobile">
+                    <a asp-page="Book" asp-route-title="@b.Title.Replace(" ","_")">
+                        <div  class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="~/images/default.jpg" />
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title">
+                                    @b.Title - @b.Author
+                                </p>
+                                <p class="subtitle">
+                                    @b.Description
+                                </p>
+                                <div class="content">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            }
+        }
+    </div>
+</div>
+
+@await Component.InvokeAsync("MyLibrary")

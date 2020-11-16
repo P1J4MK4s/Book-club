@@ -1,0 +1,15 @@
+﻿@page
+@model Book_club.Pages.MyLibraryModel
+@{
+}
+
+<div>
+    @foreach(var book in Model.MyLibrary) {
+    <p>@book.Title</p>
+    <p>@book.Author</p>
+    <p>@book.Description</p>
+    <hr />
+    }
+</div>
+
+@await Component.InvokeAsync("MyLibrary", new { view = "Small"})

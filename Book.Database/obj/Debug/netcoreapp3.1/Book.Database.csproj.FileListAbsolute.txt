@@ -1,0 +1,15 @@
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\bin\Debug\netcoreapp3.1\Book.Database.deps.json
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\bin\Debug\netcoreapp3.1\Book.Database.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\bin\Debug\netcoreapp3.1\Book.Database.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\bin\Debug\netcoreapp3.1\Book.Domain.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\bin\Debug\netcoreapp3.1\Book.Domain.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.csprojAssemblyReference.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.AssemblyInfoInputs.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.AssemblyInfo.cs
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.csproj.CoreCompileInputs.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.csproj.CopyComplete
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Database\obj\Debug\netcoreapp3.1\Book.Database.pdb
+C:\Users\still\Desktop\MyApp\Book-club\book.database\bin\Debug\netcoreapp3.1\Book.Database.runtimeconfig.json
+C:\Users\still\Desktop\MyApp\Book-club\book.database\bin\Debug\netcoreapp3.1\Book.Database.runtimeconfig.dev.json
+C:\Users\still\Desktop\MyApp\Book-club\book.database\obj\Debug\netcoreapp3.1\Book.Database.genruntimeconfig.cache

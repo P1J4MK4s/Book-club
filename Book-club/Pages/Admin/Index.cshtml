@@ -1,0 +1,57 @@
+﻿@page
+@model Book_club.Pages.Admin.IndexModel
+@{
+}
+
+<div id="app" class="container">
+    <div v-if="!editing">
+        <button class="button" @@click="newBook">Add New Book</button>
+        <table class="table">
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Description</th>
+            </tr>
+            <tr v-for="(book,index) in books">
+                <td>{{book.id}}</td>
+                <td>{{book.title}}</td>
+                <td>{{book.author}}</td>
+                <td>{{book.description}}</td>
+                <td><a @@click="editBook(book.id,index)">Edit</a></td>
+                <td><a @@click="deleteBook(book.id, index)">Remove</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div v-else>
+        <label class="label">Book Title</label>
+        <div class="field">
+            <div class="control">
+                <input class="input" v-model="bookModel.title" />
+            </div>
+        </div>
+        <label class="label">Book Author</label>
+        <div class="field">
+            <div class="control">
+                <input class="input" v-model="bookModel.author" />
+            </div>
+        </div>
+        <label class="label">Book Description</label>
+        <div class="field">
+            <div class="control">
+                <input class="input" v-model="bookModel.description" />
+            </div>
+        </div>
+        <button class="button is-success" @@click="createBook" v-if="!bookModel.id">Create Book</button>
+        <button class="button is-warning" @@click="updateBook" v-else>Update Book</button>
+        <button class="button" @@click="cancel">Cancel</button>
+    </div>
+</div>
+
+@section scripts{
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="~/js/Admin/books.js"></script>
+
+}

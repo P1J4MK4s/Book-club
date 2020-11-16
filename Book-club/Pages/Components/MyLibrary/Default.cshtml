@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Book.Application.MyLibrary.GetMyLibrary.Response>
+
+<div>
+    <h2>Already in MyLibrary :</h2>
+    @foreach (var book in Model)
+    {
+        <p>@book.Title</p>
+        <p>@book.Author</p>
+        <p>@book.Description</p>
+        <hr />
+    }
+</div>

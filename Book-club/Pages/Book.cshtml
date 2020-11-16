@@ -1,0 +1,18 @@
+﻿@page "{title}"
+@model BookModel
+@{
+}
+
+
+<div>
+    <p>@Model.Book.Title</p>
+    <p>@Model.Book.Author</p>
+    <p>@Model.Book.Description</p>
+    <form method="post">
+        
+        <input asp-for="MyLibraryViewModel.BookId" />
+        <button type="submit" asp-for="MyLibraryViewModel.BookId" value="@Model.Book.Id">Submit</button>
+    </form>
+</div>
+
+@await Component.InvokeAsync("MyLibrary")

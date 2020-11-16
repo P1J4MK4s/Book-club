@@ -1,0 +1,17 @@
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Application.deps.json
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Application.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Application.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Database.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Domain.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Database.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Domain.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.csprojAssemblyReference.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.AssemblyInfoInputs.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.AssemblyInfo.cs
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.csproj.CoreCompileInputs.cache
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.csproj.CopyComplete
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.dll
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.pdb
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Application.runtimeconfig.json
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\bin\Debug\netcoreapp3.1\Book.Application.runtimeconfig.dev.json
+C:\Users\still\Desktop\MyApp\Book-club\Book.Application\obj\Debug\netcoreapp3.1\Book.Application.genruntimeconfig.cache
